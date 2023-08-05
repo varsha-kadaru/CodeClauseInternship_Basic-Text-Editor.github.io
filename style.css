@@ -1,0 +1,98 @@
+h1{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+body{
+    background-color: #eee;
+}
+.container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px #e4dbdb;
+    border-radius: 10px;
+}
+
+.controls{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.control-btn-container{
+    display: flex;
+}
+.control-btn-container .contol-btn{
+    margin-left: 4px;
+}
+
+.control-btn:active{
+    font-weight: bold;
+}
+
+.control-btn{
+    background-color: #fcefef;
+    
+    border-radius: 10px;
+    box-shadow:1px 1.5px #ecdada;
+    margin: 2px;
+    width:40px;
+    height: auto;
+    outline: none;
+}
+.control-btn:hover{
+    background-color: #eee;
+    color: black;
+}
+.main-controls{
+    display: flex;
+}
+
+#filename-input{
+    margin-left: 15px;
+}
+
+.content{
+    outline: none;
+    padding: 20px;
+}
+.box{
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    min-height: 80vh;
+    
+}
+
+.dropdown-item:hover{
+    background-color: rgb(47, 106, 242);
+    color: white;
+}
+
+#fontSize{
+    outline: none;
+    display: none;
+}
+
+.color{
+    padding: 10px;
+}
+
+input{
+    outline: none;
+}
+
+#fontSelector,#filename-input{
+    height: 40px;
+    border-radius: 10px;
+    /* box-shadow:1px 1.5px #4b4848; */
+}
